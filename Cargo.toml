@@ -1,0 +1,18 @@
+[package]
+name = "stop"
+version = "0.1.0"
+edition = "2024"
+authors = ["misaka10987 <misaka10987@outlook.com>"]
+description = "Print an error message and stop the program."
+documentation = "https://github.com/misaka10987/stop"
+homepage = "https://github.com/misaka10987/stop"
+repository = "https://github.com/misaka10987/stop"
+readme = "README.md"
+keywords = ["stop", "panic", "error", "exit", "cli"]
+license = "MIT"
+
+[dependencies]
+colored = { version = "3.0.0", optional = true }
+
+[features]
+default = ["colored"]
